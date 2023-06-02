@@ -2,7 +2,7 @@
 	header('Content-type: text/html; charset=utf-8');
 	$servername = "localhost";
 	$username = "elif";
-	$password = "123456";
+	$password = "*********";
 	$dbadi="e_voting";
 	 try{
 	    $baglanti = new PDO("mysql:host=$servername;dbname=$dbadi;charset=utf8", $username, $password);
